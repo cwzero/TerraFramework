@@ -1,0 +1,8 @@
+dependencies {
+	implementation project(':Download')
+	implementation project(':Deobfuscate')
+	implementation project(':Decompile')
+	implementation project(':Patch')
+	implementation project(':Modularize')
+	implementation project(':Recompile')
+}

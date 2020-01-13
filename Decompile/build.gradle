@@ -1,0 +1,5 @@
+dependencies {
+	implementation project(':Bytecode')
+	implementation project(':Source')
+	implementation project(':Transform')
+}

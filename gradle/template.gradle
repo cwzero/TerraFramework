@@ -1,0 +1,7 @@
+ext {
+	Version = ''
+}
+
+dependencies {
+	implementation group: '', name: '', version: Version
+}

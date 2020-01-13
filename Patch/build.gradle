@@ -1,0 +1,4 @@
+dependencies {
+	implementation project(':Source')
+	implementation project(':Transform')
+}
