@@ -1,4 +1,6 @@
 dependencies {
+	implementation 'org.jboss.windup.decompiler:decompiler-fernflower:4.3.0.Final'
+
 	implementation project(':Bytecode')
 	implementation project(':Source')
 	implementation project(':Transform')

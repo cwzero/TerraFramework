@@ -3,5 +3,5 @@ ext {
 }
 
 dependencies {
-	implementation group: 'org.apache.commons', name: 'comomns-io', version: commonsIoVersion
+	implementation group: 'org.apache.commons', name: 'commons-io', version: commonsIoVersion
 }
