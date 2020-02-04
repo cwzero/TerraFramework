@@ -1,0 +1,2 @@
+apply from: "${gradleDir}/httpclient.gradle"
+apply from: "${gradleDir}/jackson.gradle"

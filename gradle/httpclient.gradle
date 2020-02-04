@@ -1,0 +1,7 @@
+ext {
+	httpClientVersion = '4.5.10'
+}
+
+dependencies {
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: httpClientVersion
+}

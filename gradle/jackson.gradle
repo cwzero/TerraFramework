@@ -1,0 +1,7 @@
+ext {
+	jacksonVersion = '2.10.2'
+}
+
+dependencies {
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+}

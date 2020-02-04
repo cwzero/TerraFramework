@@ -1,4 +1,12 @@
+apply from: "${gradleDir}/application.gradle"
+
+mainClassName = 'com.liquidforte.terra.pipeline.main.Main'
+
 dependencies {
+	implementation project(':Bytecode')
+	implementation project(':Source')
+	implementation project(':Transform')
+	
 	implementation project(':Download')
 	implementation project(':Deobfuscate')
 	implementation project(':Decompile')
