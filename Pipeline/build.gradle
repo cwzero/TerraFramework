@@ -1,6 +1,11 @@
 apply from: "${gradleDir}/application.gradle"
+apply from: "${gradleDir}/jackson.gradle"
 
 mainClassName = 'com.liquidforte.terra.pipeline.main.Main'
+
+run {
+	workingDir = 'run'
+}
 
 dependencies {
 	implementation project(':Bytecode')

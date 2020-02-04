@@ -1,4 +1,4 @@
-package com.liquidforte.terra.api.pipeline;
+package com.liquidforte.terra.api.stage;
 
 public interface Stage extends Runnable {
 
